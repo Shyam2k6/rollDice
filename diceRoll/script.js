@@ -60,7 +60,7 @@ hold.addEventListener("click", function () {
     document.querySelector(`.currentScore${activePlayer}`).textContent = 0;
     currentScore = 0;
     //winning condition
-    if (scores[activePlayer - 1] >= 20) {
+    if (scores[activePlayer - 1] >= 100) {
       //finish the game
       playing = false;
       document
@@ -94,6 +94,8 @@ newGame.addEventListener("click", function () {
   document.querySelector(`.totalScore2`).textContent = scores[activePlayer - 1];
   document.querySelector(`.playerhead1`).style.color = "#343a40";
   document.querySelector(`.playerhead2`).style.color = "#343a40";
+    document.querySelector(`.totalScore1`).style.color = "#364fc7";
+  document.querySelector(`.totalScore2`).style.color = "#364fc7";
 
   displayDice();
 
