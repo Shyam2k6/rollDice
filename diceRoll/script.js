@@ -94,12 +94,11 @@ newGame.addEventListener("click", function () {
   document.querySelector(`.totalScore2`).textContent = scores[activePlayer - 1];
   document.querySelector(`.playerhead1`).style.color = "#343a40";
   document.querySelector(`.playerhead2`).style.color = "#343a40";
-    document.querySelector(`.totalScore1`).style.color = "#364fc7";
-  document.querySelector(`.totalScore2`).style.color = "#364fc7";
 
   displayDice();
 
   document.querySelector(`.player--1`).classList.remove("playerwin");
   document.querySelector(`.player--2`).classList.remove("playerwin");
-  document.querySelector(`.totalScore${activePlayer}`).style.color = "#364fc7";
+  document.querySelector(`.totalScore1`).style.color = "#364fc7";
+  document.querySelector(`.totalScore2`).style.color = "#364fc7";
 });
