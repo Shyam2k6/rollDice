@@ -18,7 +18,7 @@ body {
   justify-content: center;
 }
 section {
-  min-height: 80vh;
+  /* min-height: 80vh; */
   width: 70%;
   border-radius: 8px;
   position: relative;
@@ -37,7 +37,7 @@ section {
 }
 .container {
   display: flex;
-  min-height: 80vh;
+  /* min-height: 80vh; */
 }
 h1 {
   padding-bottom: 30px;
@@ -128,40 +128,42 @@ svg {
   section {
     width: 95%;
   }
+
   .player {
     padding: 10px;
+    padding-bottom: 80px;
   }
   h1 {
     padding-bottom: 40px;
-    font-size: 30px;
+    font-size: 25px;
   }
   .totalScore {
-    font-size: 50px;
+    font-size: 40px;
   }
   .box {
     padding: 15px 30px;
   }
   p {
-    font-size: 12px;
+    font-size: 10px;
   }
   .currentScore {
-    font-size: 30px;
+    font-size: 25px;
   }
   .btn {
-    padding: 8px 15px;
-    font-size: 12px;
+    padding: 5px 12px;
+    font-size: 8px;
   }
   svg {
-    top: 37%;
+    top: 40%;
   }
   .newGame {
     top: 10%;
   }
   .rollDice {
-    top: 72%;
+    top: 76%;
   }
   .hold {
-    top: 82%;
+    top: 85%;
   }
 }
 
@@ -171,6 +173,7 @@ svg {
   }
   .player {
     padding: 20px;
+    padding-bottom: 100px;
   }
   h1 {
     font-size: 30px;
@@ -182,23 +185,23 @@ svg {
     font-size: 15px;
   }
   .currentScore {
-    font-size: 30px;
+    font-size: 25px;
   }
   .btn {
-    padding: 8px 15px;
+    padding: 10px 24px;
     font-size: 12px;
   }
   svg {
-    top: 37%;
+    top: 40%;
   }
   .newGame {
     top: 10%;
   }
   .rollDice {
-    top: 72%;
+    top: 75%;
   }
   .hold {
-    top: 82%;
+    top: 85%;
   }
 }
 /* light : #edf2ff */
